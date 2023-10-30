@@ -12,7 +12,7 @@ use SergiX44\Hydrator\HydratorInterface;
 use SergiX44\Nutgram\Cache\Adapters\ArrayCache;
 use SergiX44\Nutgram\Hydrator\NutgramHydrator;
 
-final readonly class Configuration
+final class Configuration
 {
     public const DEFAULT_API_URL = 'https://api.telegram.org';
     public const DEFAULT_POLLING_TIMEOUT = 10;

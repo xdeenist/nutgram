@@ -1,5 +1,5 @@
 {
-    "name": "nutgram/nutgram",
+    "name": "xdeenist/nutgram",
     "description": "The Telegram bot library that doesn't drive you nuts",
     "keywords": [
         "nutgram",
@@ -10,7 +10,7 @@
         "framework",
         "laravel"
     ],
-    "homepage": "https://github.com/SergiX44/Nutgram",
+    "homepage": "https://github.com/xdeenist/nutgram",
     "license": "MIT",
     "authors": [
         {

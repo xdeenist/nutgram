@@ -259,7 +259,8 @@ trait Client
             $requestData = $requestPost ?? $request;
 
             if ($this->canHandleAsResponse()) {
-                return $this->sendResponse($endpoint, $requestData);
+                $this->sendResponse($endpoint, $requestData);
+                return null;
             }
 
             $json = $requestData['json'];
